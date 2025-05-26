@@ -3,15 +3,15 @@
  */
 const CONFIG = {
   // 默认只展示Logo文字，如果设置了logo图片，会在文字左侧显示图标
-  STARTER_LOGO: '', // 普通logo图片 示例：/images/starter/logo/logo.svg
-  STARTER_LOGO_WHITE: '', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
+  STARTER_LOGO: '/images/starter/logo/logo.png', // 普通logo图片 示例：/images/starter/logo/logo.svg
+  STARTER_LOGO_WHITE: '/images/starter/logo/logo-white.png', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
 
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-  STARTER_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'Datacook让你无需编程，轻松进行数据分析与可视化', // 英雄区文字
+  STARTER_HERO_TITLE_2: '让每一位员工都能用数据驱动业务增长，决策更加自信高效', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
