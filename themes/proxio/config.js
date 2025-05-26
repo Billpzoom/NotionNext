@@ -3,12 +3,12 @@
  */
 const CONFIG = {
   PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
-  PROXIO_WELCOME_TEXT: '欢迎来到此网站，点击任意位置进入', // 欢迎文字，留空则不启用
+  PROXIO_WELCOME_TEXT: '欢迎来到DataCook，点击任意位置进入', // 欢迎文字，留空则不启用
 
   // 英雄区块导航
   PROXIO_HERO_ENABLE: true, // 开启英雄区
-  PROXIO_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-  PROXIO_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+  PROXIO_HERO_TITLE_1: '多智能体协作企业研究工具，自动生成全面的企业调研报告', // 英雄区文字
+  PROXIO_HERO_TITLE_2: '智能采集、整合并深度分析企业信息', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
   PROXIO_HERO_BUTTON_1_URL:
@@ -24,9 +24,9 @@ const CONFIG = {
 
   // 文章区块
   PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
-  PROXIO_BLOG_TITLE: '作品',
+  PROXIO_BLOG_TITLE: '其他作品',
   PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
-  PROXIO_BLOG_TEXT_1: '我的最新动态',
+  PROXIO_BLOG_TEXT_1: 'DataCook最新动态',
 
   // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
   PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
